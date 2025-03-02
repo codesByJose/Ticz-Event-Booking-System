@@ -17,6 +17,7 @@ const AttendeeInfo = forwardRef((props, ref) => {
       setFormData(values); 
       handleStep(); 
       setSubmitting(false);
+    },
     validate: values => {
       let errors = {};
       if (!values.names) {
